@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
+import LinkButton from "../../../components/LInkButton";
+
 const Page1 = () => {
   return (
     <Wrapper>
       <Container>
-        Page1
+        <LinkButton href="/">Go to home</LinkButton>
       </Container>
     </Wrapper>
   );
