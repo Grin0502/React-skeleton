@@ -15,7 +15,12 @@ const Wrapper = styled.div`
   background-color: #eee;
 `;
 const Container = styled.div`
+  max-width: 1200px;
+  height: 100%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: grey;
   font-size: 50px;
 `;

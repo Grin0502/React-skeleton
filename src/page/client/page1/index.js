@@ -1,18 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 
-const Header = () => {
+const Page1 = () => {
   return (
     <Wrapper>
-      <Container>Header</Container>
+      <Container>
+        Page1
+      </Container>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 200px;
-  background-color: #eee;
+  height: 500px;
+  background-color: white;
 `;
 const Container = styled.div`
   max-width: 1200px;
@@ -25,4 +27,4 @@ const Container = styled.div`
   font-size: 50px;
 `;
 
-export default Header;
+export default Page1;

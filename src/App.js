@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import ClientVIew from './view/client';
 
 function App() {
   return (
-    <div>
-    </div>
+    <ClientVIew />
   );
 }
 
