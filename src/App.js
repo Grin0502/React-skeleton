@@ -1,9 +1,14 @@
-import './App.css';
-import ClientVIew from './view/client';
+import "./App.css";
+import { Provider } from "react-redux";
+
+import store from "./redux/store";
+import ClientVIew from "./view/client";
 
 function App() {
   return (
-    <ClientVIew />
+    <Provider store={store}>
+      <ClientVIew />
+    </Provider>
   );
 }
 
